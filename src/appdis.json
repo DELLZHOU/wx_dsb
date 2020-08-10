@@ -1,0 +1,118 @@
+{
+    "pages": [
+        "pages/home/home",
+        "pages/newCarsDetails/newCarsDetails",
+        "pages/newCars/newCars",
+        "pages/placeOrder/placeOrder",
+        "pages/couponList/couponList",
+        "pages/newMember/newMember",
+        "pages/authorization/authorization",
+        "pages/moreCoupons/moreCoupons",
+        "pages/drivePeopleDetails/drivePeopleDetails",
+        "pages/uploadDriverLicense/uploadDriverLicense",
+        "pages/uploadIdCard/uploadIdCard",
+        "pages/activeityList/activeityList",
+        "pages/limitPage/limitPage",
+        "pages/serverLimitDetails/serverLimitDetails",
+        "pages/nowCars/nowCars",
+        "pages/vehicleRental/vehicleRental",
+        "pages/newAddingDrivers/newAddingDrivers",
+        "pages/personInfoCenter/personInfoCenter",
+        "pages/myHobby/myHobby",
+        "pages/orderings/orderings",
+        "pages/merchantOrderList/merchantOrderList",
+        "pages/merchantOrder/merchantOrder",
+        "pages/violationDetails/violationDetails",
+        "pages/addingDriversMessage/addingDriversMessage",
+        "pages/ordersDetails/ordersDetails",
+        "pages/checkListCarsEdit/checkListCarsEdit",
+        "pages/login/login",
+        "pages/applicationForRefund/applicationForRefund",
+        "pages/shareOrderDetails/shareOrderDetails",
+        "pages/operationTakePhotoes/operationTakePhotoes",
+        "pages/checkListCars/checkListCars",
+        "pages/vehicleDeposit/vehicleDeposit",
+        "pages/detailsOfCharges/detailsOfCharges",
+        "pages/evaluate/evaluate",
+        "pages/miaosha/miaosha",
+        "pages/logs/logs",
+        "pages/moreHeads/moreHeads",
+        "pages/setMileage/setMileage",
+        "pages/basicSecurityFee/basicSecurityFee",
+        "pages/orderDescAndRedundRules/orderDescAndRedundRules",
+        "pages/helpCenter/helpCenter",
+        "pages/helpCenterArticle/helpCenterArticle",
+        "pages/addingDrivers/addingDrivers",
+        "pages/personalSetting/personalSetting",
+        "pages/verifyCellPhoneNumber/verifyCellPhoneNumber",
+        "pages/bindMobile/bindMobile",
+        "pages/personalInformation/personalInformation",
+        "pages/myViolation/myViolation",
+        "pages/transactionDetails/transactionDetails",
+        "pages/takingPhotos/takingPhotos",
+        "pages/staffOrderDetails/staffOrderDetails",
+        "pages/myCollection/myCollection",
+        "pages/coupon/coupon",
+        "pages/couponSupportCars/couponSupportCars",
+        "pages/carsDetails/carsDetails",
+        "pages/searchCars/searchCars",
+        "pages/reimbursementNote/reimbursementNote",
+        "pages/noDeductible/noDeductible",
+        "pages/intropreferActive/intropreferActive",
+        "pages/checkRefundProgress/checkRefundProgress",
+        "pages/map/map",
+        "pages/vehSerAgreement/vehSerAgreement",
+        "pages/refundMoney/refundMoney",
+        "pages/index/index",
+        "pages/myWallet/myWallet",
+        "pages/carRentalDep/carRentalDep",
+        "pages/rechargeRecord/rechargeRecord"
+    ],
+    "permission": {
+        "scope.userLocation": {
+            "desc": "你的位置信息将用于小程序位置接口的效果展示"
+        }
+    },
+    "navigateToMiniProgramAppIdList": [
+        "wx7643d5f831302ab0"
+    ],
+    "window": {
+        "navigationStyle": "default",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#eeeeee",
+        "navigationBarTitleText": "易企用",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#C4C7D0",
+        "selectedColor": "#5458e8",
+        "backgroundColor": "#fff",
+        "list": [
+            {
+                "pagePath": "pages/home/home",
+                "text": "首页",
+                "iconPath": "images/footer_tabBar_icon/icon_home.png",
+                "selectedIconPath": "images/footer_tabBar_icon/icon_showhome.png"
+            },
+            {
+                "pagePath": "pages/newCars/newCars",
+                "text": "现车",
+                "iconPath": "images/footer_tabBar_icon/icon_cart.png",
+                "selectedIconPath": "images/footer_tabBar_icon/icon_showcart.png"
+            },
+            {
+                "pagePath": "pages/orderings/orderings",
+                "text": "订单",
+                "iconPath": "images/footer_tabBar_icon/icon_info.png",
+                "selectedIconPath": "images/footer_tabBar_icon/icon_showinfo.png"
+            },
+            {
+                "pagePath": "pages/newMember/newMember",
+                "text": "我的",
+                "iconPath": "images/footer_tabBar_icon/icon_my.png",
+                "selectedIconPath": "images/footer_tabBar_icon/icon_showmy.png"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}
